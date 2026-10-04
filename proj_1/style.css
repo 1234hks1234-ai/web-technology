@@ -1,0 +1,13 @@
+.reviews {
+    width: 100%;
+    border-spacing: 30px;
+}
+
+.reviews td {
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+}
+header img {
+    vertical-align: middle;
+}
