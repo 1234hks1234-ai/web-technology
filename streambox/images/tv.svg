@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" role="img" aria-label="TV showing a play button">
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a1c71"/>
+      <stop offset="0.55" stop-color="#d76d77"/>
+      <stop offset="1" stop-color="#ffaf7b"/>
+    </linearGradient>
+  </defs>
+  <rect x="40" y="30" width="520" height="310" rx="22" fill="#1b1b1f" stroke="#3a3a42" stroke-width="6"/>
+  <rect x="62" y="52" width="476" height="266" rx="10" fill="url(#screen)"/>
+  <circle cx="300" cy="185" r="52" fill="#000" fill-opacity="0.35"/>
+  <polygon points="282,155 282,215 332,185" fill="#ffffff"/>
+  <rect x="270" y="340" width="60" height="26" fill="#2a2a30"/>
+  <rect x="190" y="366" width="220" height="16" rx="8" fill="#2a2a30"/>
+</svg>

@@ -87,3 +87,26 @@ height: 60px;
     border-radius: 50% 50% 0 0 / 100% 100% 0 0;
     box-shadow: 0 -8px 40px rgba(229, 9, 20, 0.5);
 }
+.feature{
+    display :flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    padding:80px 50px
+}
+.feature-text{
+    max-width:450px
+}
+.feature-text h2{
+    font-size:2.5rem;
+    margin-bottom:16px;
+
+}
+.feature-text p{
+font-size:1.3rem;
+}
+.feature img{
+    width:450px;
+    max-width:100%;
+
+}
