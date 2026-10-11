@@ -146,13 +146,13 @@ font-size:1.3rem;
    max-width: 1000px;
    margin:0 auto;
    padding:60px 20px;
-   color:#3b3b3b;
+   color:#b3b3b3;
 
 } 
 .footer-links{
     list-style:none;
     display:grid;
-    grid-template-columns:rpeat(3,1fr);
+    grid-template-columns:repeat(3,1fr);
     gap:16px;
     margin:24px 0;
 }
