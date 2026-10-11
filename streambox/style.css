@@ -26,3 +26,25 @@ height: 60px;
     text-decoration: none;
 
 }
+.hero{
+    min-height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/hero.svg");
+    background-size:cover;
+    background-position:center;
+}
+.hero-content{
+    text-align:center;
+    max-width:650px;
+    margin:120px auto 0;
+    padding :0 20px;
+
+}
+.hero-content h2{
+    font-size: 3rem;
+    margine-bottom:16px;
+
+}
+.hero-content p{
+    font-size:1.3rem;
+    margine-bottom: 24px;
+}
