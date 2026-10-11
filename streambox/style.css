@@ -142,3 +142,25 @@ font-size:1.3rem;
 .faq details[open] summary {
     border-bottom: 1px solid #000;
 }
+.footer{
+   max-width: 1000px;
+   margin:0 auto;
+   padding:60px 20px;
+   color:#3b3b3b;
+
+} 
+.footer-links{
+    list-style:none;
+    display:grid;
+    grid-template-columns:rpeat(3,1fr);
+    gap:16px;
+    margin:24px 0;
+}
+.footer-links a{
+    color:#b3b3b3;
+    font-size:0.9rem;
+
+}
+.footer-note{
+    font-size:0.85rem;
+}
