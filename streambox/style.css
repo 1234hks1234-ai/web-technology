@@ -92,10 +92,10 @@ height: 60px;
     justify-content:center;
     align-items:center;
     gap:40px;
-    padding:80px 50px
+    padding:80px 50px;
 }
 .feature-text{
-    max-width:450px
+    max-width:450px;
 }
 .feature-text h2{
     font-size:2.5rem;
@@ -164,3 +164,29 @@ font-size:1.3rem;
 .footer-note{
     font-size:0.85rem;
 }
+@media (max-width: 768px){
+    .navbar{
+        padding:20px;
+    }
+}
+.hero-content h2{
+    font-size:2 rem;
+
+}
+.hero-content form{
+    flex-direction:column;
+}
+ .hero-content input {
+        width: 100%;
+    }
+
+    .feature,
+    .reverse {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
